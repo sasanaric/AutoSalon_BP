@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="594.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autosalon.BiranjeAutaController">
+   <children>
+      <ComboBox fx:id="proizvodjacComboBox" layoutX="189.0" layoutY="66.0" prefWidth="150.0" />
+      <ComboBox fx:id="modelComboBox" layoutX="189.0" layoutY="126.0" prefWidth="150.0" />
+      <ComboBox fx:id="tipComboBox" layoutX="189.0" layoutY="186.0" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="70.0" layoutY="70.0" text="Proizvodjac" />
+      <Label layoutX="70.0" layoutY="130.0" prefHeight="17.0" prefWidth="61.0" text="Model" />
+      <Label layoutX="70.0" layoutY="190.0" prefHeight="17.0" prefWidth="61.0" text="Tip" />
+      <ComboBox fx:id="motorComboBox" layoutX="189.0" layoutY="246.0" prefWidth="150.0" />
+      <Label layoutX="70.0" layoutY="250.0" prefHeight="17.0" prefWidth="61.0" text="Motor" />
+      <Label layoutX="70.0" layoutY="310.0" prefHeight="17.0" prefWidth="61.0" text="Oprema" />
+      <Label layoutX="70.0" layoutY="370.0" prefHeight="17.0" prefWidth="61.0" text="Boja" />
+      <ComboBox fx:id="opremaComboBox" layoutX="189.0" layoutY="306.0" prefWidth="150.0" />
+      <ComboBox fx:id="bojaComboBox" layoutX="189.0" layoutY="366.0" prefWidth="150.0" />
+      <Label layoutX="70.0" layoutY="430.0" prefHeight="17.0" prefWidth="61.0" text="Cijena" />
+      <TextField fx:id="cijenaTextField" layoutX="190.0" layoutY="426.0" prefHeight="25.0" prefWidth="150.0" />
+      <Button fx:id="naruciButton" layoutX="189.0" layoutY="491.0" mnemonicParsing="false" onAction="#potvrda" prefHeight="25.0" prefWidth="150.0" text="Naruci" />
+      <Button fx:id="listaNarudzbiButton" layoutX="405.0" layoutY="526.0" mnemonicParsing="false" onAction="#prikazListeNarudzbi" prefHeight="54.0" prefWidth="108.0" text="Lista Narudzbi" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="492.0" prefWidth="1098.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autosalon.ListaNarudzbiController">
+   <children>
+      <TableView fx:id="narudzbaTableView" prefHeight="845.0" prefWidth="1098.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="idAutomobilColumn" prefWidth="75.0" text="idAutomobil" />
+          <TableColumn fx:id="idNarudzbaColumn" text="idNarudzba" />
+            <TableColumn fx:id="datumNarudzbeColumn" prefWidth="104.0" text="datumNarudzbe" />
+            <TableColumn fx:id="datumDolaskaColumn" prefWidth="74.0" text="datumDolaska" />
+            <TableColumn fx:id="proizvodjacColumn" prefWidth="75.0" text="Proizvodjac" />
+            <TableColumn fx:id="modelColumn" prefWidth="75.0" text="Model" />
+            <TableColumn fx:id="tipColumn" prefWidth="75.0" text="Tip" />
+            <TableColumn fx:id="motorColumn" prefWidth="75.0" text="Motor" />
+            <TableColumn fx:id="opremaColumn" prefWidth="75.0" text="Oprema" />
+            <TableColumn fx:id="bojaColumn" prefWidth="75.0" text="Boja" />
+            <TableColumn fx:id="cijenaColumn" prefWidth="75.0" text="Cijena" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
